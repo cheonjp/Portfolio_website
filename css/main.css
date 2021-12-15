@@ -129,7 +129,7 @@ section .profileImg {
   width: 25rem;
   height: 25rem;
   border-radius: 100%;
-  background-image: url("../img/me.jpg");
+  background-image: url("./img/me.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
