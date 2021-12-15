@@ -8,33 +8,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/ff0c2ec160.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Jp Portfolio</title>
 </head>
 <body>
     <header class="header">
         <div class="name">JP</div>
         <div class="categoryBox">
-            <div class="category">
+            <a class="category" href="#home">
                 <i class="fas fa-home icon i-home"></i>
                 <span>HOME</span>
-            </div>
-            <div class="category">
+            </a>
+            <a class="category" href="#about">
                 <i class="fas fa-user icon"></i>
                 <span>ABOUT</span>
-            </div>
-            <div class="category">
+            </a>
+            <a class="category" href="#skills">
                 <i class="fas fa-list-ol icon"></i>
                 <span>SKILLS</span>
-            </div>
-            <div class="category">
+            </a>
+            <a class="category" href="#works">
                 <i class="fas fa-briefcase icon"></i>
                 <span>PROJECTS</span>
-            </div>
-            <div class="category">
+            </a>
+            <a class="category" href="#contact">
                 <i class="fas fa-phone icon"></i>
                 <span>CONTACT</span>
-            </div>
+            </a>
         </div>
     </header>
     <main>
@@ -61,7 +61,7 @@
                 <ul>
                     <li>Worked for Korean Army in 2008 ~ 2016.</li>
                     <li>Diploma for Web & Graphic Design(College of New Caledonia in Prince George).</li>
-                    <li>Worked as front-end developer in INNORIX for a year.</li>
+                    <li>Worked as front-end developer in INNORIX in 2021.</li>
                 </ul>
             </div>
         </section>
@@ -102,7 +102,7 @@
                         </li>
                         <li>
                             <div class="container">
-                                <img src="../img/jquery.svg" alt="">
+                                <img src="./img/jquery.svg" alt="">
                                 <div>React.js</div>
                             </div>
                         </li>
@@ -118,6 +118,40 @@
         </section>
         <section id="works">
             <h1>PROJECTS</h1>
+            <div class="background">
+                <div class="container">
+                    <img src="/img/me.jpg" alt="">
+                    <div class="explainBox">
+                        <h2>Ticket booking system</h2>
+                        <p>Used skills : <span>HTML, SASS, Javascript</span></p>
+                        <ul>
+                            <li>I used Photoshop skills to design movie posters.</li>
+                            <li>It's built with Shadow DOM template, Array function(forEach, map) and etc.</li>
+                            <li>Project was made in Dec 2021</li>
+                        </ul>
+                        <div class="btnBox">
+                            <a href="#">Live</a>
+                            <a href="#">Git</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>CONTACT</h1>
+            <div class="contactContainer">
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope email"></i>  cheonjp87@gmail.com
+                    </li>
+                    <li>
+                        <i class="fas fa-phone phone"></i>  +1 (250) 899 - 2978
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt location"></i>  Kelowna in BC Canada
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <script src="main.js"></script>

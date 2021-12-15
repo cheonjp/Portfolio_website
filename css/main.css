@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -69,6 +70,8 @@ body {
 }
 
 .header .category {
+  display: block;
+  text-decoration: none;
   color: white;
   padding: 10px 20px;
   cursor: pointer;
@@ -118,6 +121,7 @@ main {
 }
 
 section {
+  padding-top: 50px;
   margin-bottom: 10rem;
 }
 
@@ -311,6 +315,80 @@ section .introduction p:last-child span {
 
 #works h1:before {
   content: 'Take a look at';
+}
+
+#works .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#works .container img {
+  width: 35%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 20px;
+}
+
+#works .container .explainBox {
+  width: 62%;
+}
+
+#works .container h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#works .container ul {
+  padding-left: 20px;
+}
+
+#works .background {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#works a {
+  margin-right: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#works .btnBox {
+  margin-top: 40px;
+}
+
+#contact h1:before {
+  content: 'ready for work';
+}
+
+#contact li {
+  list-style: none;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #646464;
+}
+
+#contact .email {
+  color: tan;
+}
+
+#contact .phone {
+  color: #78BCE6;
+}
+
+#contact .location {
+  color: palevioletred;
+}
+
+#contact i {
+  margin-right: 10px;
 }
 
 .background {
