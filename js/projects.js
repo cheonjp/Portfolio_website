@@ -7,8 +7,8 @@ projects =[
         skill:'HTML, SASS, Javascript',
         text:[
             'I used Photoshop skills to design movie posters.',
-            "It's built with Shadow DOM template, Array function(forEach, map) and etc.",
-            "Project was made in Dec 2021"
+            "Built with Shadow DOM template, Array function (forEach, map), etc.",
+            "Project was created in Dec 2021"
         ]
     },
     {
@@ -18,9 +18,9 @@ projects =[
         git:'https://github.com/cheonjp/react_menu',
         skill:'React.js, SASS',
         text:[
-            'I used skills such as React Hook, template, filter and etc.',
-            'By the filter function, while buttons are clicked, menu changes by proper category.',
-            "Project was made in Nov 2021"
+            'Skills used such as React Hook, template, filter, etc.',
+            'Using the filter function, when buttons are clicked, menu changes to proper category.',
+            "Project was created in Nov 2021"
         ]
     },
     {
@@ -30,9 +30,9 @@ projects =[
         git:'https://github.com/cheonjp/react_travel_list',
         skill:'React.js, SASS',
         text:[
-            'I used skills such as React Hook, template, Substring and etc.',
-            'List of trip information is showing up that has clickable removal buttons in the list.',
-            "Project was made in Nov 2021"
+            'Skills used such as React Hook, template, Substring, etc.',
+            'List of trip information shows up as clickable removal buttons in the list.',
+            "Project was created in Nov 2021"
         ]
     },
 
