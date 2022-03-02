@@ -1,5 +1,17 @@
 projects =[
     {
+        name:"Quiz",
+        img: './img/quiz.jpg',
+        live: 'https://priceless-hugle-447ea9.netlify.app/',
+        git:'https://github.com/cheonjp/quiz.git',
+        skill:'HTML, CSS, React.js',
+        text:[
+            'I used React Hook such as useState, useRef, useEffect',
+            "Build with Array function ( map) and prop, managing state",
+            "Project was created in Mar 2022"
+        ]
+    },
+    {
         name:"Ticket booking system",
         img: './img/cinema.jpg',
         live: 'https://cheonjp.github.io/cinema/',
