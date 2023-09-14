@@ -1,14 +1,15 @@
 projects =[
     {
-        name:"Quiz",
-        img: './img/quiz.jpg',
-        live: 'https://priceless-hugle-447ea9.netlify.app/',
-        git:'https://github.com/cheonjp/quiz.git',
-        skill:'HTML, CSS, React.js',
+        name:"Restaurant order system",
+        img: './img/pizza.jpg',
+        live: 'https://6502691be3184c7aa58f72d1--ubiquitous-mermaid-b2331e.netlify.app/',
+        git:'https://github.com/cheonjp/pizza_client.git',
+        git2:'https://github.com/cheonjp/pizza_api.git',
+        skill:'HTML, SASS, React.js, Node.js, MongoDB',
         text:[
-            'I used React Hook such as useState, useRef, useEffect',
-            "Build with Array function ( map) and prop, managing state",
-            "Project was created in Mar 2022"
+            'I used some graphic tool such as Photoshop, XD, and Illustrator .',
+            "Built using, Vite(React) using many skills including Session Storage, JWT, etc",
+            "Project was created in Sep 2023"
         ]
     },
     {
@@ -23,32 +24,6 @@ projects =[
             "Project was created in Dec 2021"
         ]
     },
-    {
-        name:"Restaurant Menu",
-        img: './img/menu.jpg',
-        live: 'https://elegant-williams-6c2744.netlify.app/',
-        git:'https://github.com/cheonjp/react_menu',
-        skill:'React.js, SASS',
-        text:[
-            'Skills used such as React Hook, template, filter, etc.',
-            'Using the filter function, when buttons are clicked, menu changes to proper category.',
-            "Project was created in Nov 2021"
-        ]
-    },
-    {
-        name:"Trip list",
-        img: './img/react_list.jpg',
-        live: 'https://priceless-noether-1a182c.netlify.app/',
-        git:'https://github.com/cheonjp/react_travel_list',
-        skill:'React.js, SASS',
-        text:[
-            'Skills used such as React Hook, template, Substring, etc.',
-            'List of trip information shows up as clickable removal buttons in the list.',
-            "Project was created in Nov 2021"
-        ]
-    },
-
-
 ];
 
 
@@ -56,7 +31,7 @@ projects =[
     const targetContainer = document.querySelector('.projectContainer')
 
     targetContainer.innerHTML = projects.map((project,index)=>{
-        const {name,img,live,git,text,skill}=projects[index]
+        const {name,img,live,git,git2,text,skill}=project
         let realText =''
         text.forEach((list)=>{
            realText += `
@@ -76,7 +51,8 @@ projects =[
                             </ul>
                             <div class="btnBox">
                                 <a target="_black" href="${live}">Live</a>
-                                <a target="_black" href="${git}">Git</a>
+                                <a target="_black" href="${git}">Client side git</a>
+                                ${git2 ? `<a target="_black" href="${git2}">Backend side git</a>` : ""}
                             </div>
                         </div>
                     </div>
